@@ -40,12 +40,23 @@ void main() {
 // }
 
 // print(students);
-abc(0,0,20);
-abcV2(maths: 30);
+// abc(0,0,20);
+// abcV2(maths: 30);
 
 }
-abc([eng, urdu, maths]) {}
-abcV2({eng, urdu, maths}) {}
+class Teacher {
+  //properties 
+  var name = "";
+  var subject = [];
+
+  // methods
+  canTeach(subject) {
+    return subjects.a
+  }
+}
+// abc([eng, urdu, maths]) {}
+// abcV2({eng, urdu, maths}) {}
+
 // printTable(table) {
 // for (var i = 1; i < 10; i++) {
 //   print('$table * $i = ${table * i}');
